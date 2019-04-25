@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5 {
 nav {
 	display: flex;		
 	justify-content: space-evenly;	
+	
 }
 h1 {
 	font-size: 60px;
