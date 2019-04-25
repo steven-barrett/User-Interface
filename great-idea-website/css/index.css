@@ -30,6 +30,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin: 0 auto;
+	max-width: 960px;
+
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +67,53 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+nav {
+	display: flex;		
+	justify-content: space-evenly;	
+}
+h1 {
+	font-size: 60px;
+	padding: 60px;	
+}
+
+button {
+	margin: 0px 0px 0px 125px;
+}
+.header-img {
+	/* If I float the image I can get it to 
+	move to the right but it knocks the paragraphs 
+	out of the way. */
+	/*float: right;*/
+	display: flex;
+	margin-left: 550px;
+	margin-right: auto;		
+}
+
+.middle-img {
+	padding: 15px 0px 15px 0px;
+}
+
+.division-1 {	
+	float:left;
+	width:50%;
+	overflow:hidden;
+}
+.division-2 {
+	
+	float:left;
+	width:50%;
+	overflow: hidden;
+}
+.division-3 {
+	float:left;
+	width:33.3%	
+}
+.division-4 {
+	float:left;
+	width:33.3%
+}left
+.division-5 {
+	float:left;
+	width:33.3%
+}
+
